@@ -5,10 +5,10 @@
 #include "ClockSettings.h"
 #include <stdio.h>  
 #include "uart.h"
+
 int main(void) {
     RGBLed_Init();        
     TSI_Init();
-    SystemClock_Configure();
 		SystemClockTick_Configure();
 		UART0_Initialize(9600);
 

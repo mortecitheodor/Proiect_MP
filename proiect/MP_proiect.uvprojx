@@ -400,16 +400,6 @@
               <FilePath>.\main.c</FilePath>
             </File>
             <File>
-              <FileName>Pit.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Pit.c</FilePath>
-            </File>
-            <File>
-              <FileName>Pit.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Pit.h</FilePath>
-            </File>
-            <File>
               <FileName>uart.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\uart.c</FilePath>
@@ -428,6 +418,16 @@
               <FileName>tsi.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\tsi.h</FilePath>
+            </File>
+            <File>
+              <FileName>ClockSettings.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ClockSettings.c</FilePath>
+            </File>
+            <File>
+              <FileName>ClockSettings.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ClockSettings.h</FilePath>
             </File>
           </Files>
         </Group>

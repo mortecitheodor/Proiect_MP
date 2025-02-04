@@ -1,42 +1,0 @@
-Dependencies for Project 'MP_proiect', Target 'Target_1': (DO NOT MODIFY !)
-CompilerVersion: 6220000::V6.22::ARMCLANG
-F (.\gpio.c)(0x676445D8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL25Z128xxx4 -D_RTE_-o ./objects/gpio.o -MMD)
-I (gpio.h)(0x676445D8)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL25Z4.h)(0x585BC25A)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
-I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x564462EA)
-I (ClockSettings.h)(0x677FE1E4)
-F (.\gpio.h)(0x676445D8)()
-F (.\main.c)(0x6780BA63)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL25Z128xxx4 -D_RTE_-o ./objects/main.o -MMD)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL25Z4.h)(0x585BC25A)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
-I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x564462EA)
-I (gpio.h)(0x676445D8)
-I (uart.h)(0x67602C23)
-I (tsi.h)(0x67619129)
-I (ClockSettings.h)(0x677FE1E4)
-F (.\uart.c)(0x6780B9E1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL25Z128xxx4 -D_RTE_-o ./objects/uart.o -MMD)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL25Z4.h)(0x585BC25A)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
-I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x564462EA)
-I (uart.h)(0x67602C23)
-F (.\uart.h)(0x67602C23)()
-F (.\tsi.c)(0x67619B42)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL25Z128xxx4 -D_RTE_-o ./objects/tsi.o -MMD)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL25Z4.h)(0x585BC25A)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
-I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x564462EA)
-I (tsi.h)(0x67619129)
-I (gpio.h)(0x676445D8)
-F (.\tsi.h)(0x67619129)()
-F (.\ClockSettings.c)(0x677FE1E4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL25Z128xxx4 -D_RTE_-o ./objects/clocksettings.o -MMD)
-I (ClockSettings.h)(0x677FE1E4)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL25Z4.h)(0x585BC25A)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
-I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x564462EA)
-F (.\ClockSettings.h)(0x677FE1E4)()
-F (RTE/Device/MKL25Z128xxx4/startup_MKL25Z4.s)(0x564462EA)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"MKL25Z128xxx4 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_mkl25z4.o)
-F (RTE/Device/MKL25Z128xxx4/system_MKL25Z4.c)(0x564462EA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL25Z128xxx4-I./RTE/_Target_1-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/mortecitheodor/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL25Z128xxx4 -D_RTE_-o ./objects/system_mkl25z4.o -MMD)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL25Z4.h)(0x585BC25A)
-I (C:\Users\mortecitheodor\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C1ED8)
-I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x564462EA)
-F (RTE/Device/MKL25Z128xxx4/system_MKL25Z4.h)(0x564462EA)()
